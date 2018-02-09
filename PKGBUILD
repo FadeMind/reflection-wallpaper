@@ -10,7 +10,7 @@ license=('GPL')
 makedepends=('make')
 options=('!strip')
 source=(${pkgname}-master.zip)
-sha256sums=('8f12f44bceb518277055ff19d62a3d6f0ffa3b1cf8df7b4d85e6450a0b80f6ba')
+sha256sums=('SKIP')
 
 package() {
     make -C "${srcdir}/${pkgname}-master" install DESTDIR="$pkgdir"
